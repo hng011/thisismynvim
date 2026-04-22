@@ -28,7 +28,13 @@ end
 return packer.startup(function(use)
     use("wbthomason/packer.nvim")
  
-    use { "rebelot/kanagawa.nvim" } 
+    use { 
+        "scottmckendry/cyberdream.nvim",
+        config = function()
+            vim.cmd.colorscheme("cyberdream-light")
+            vim.api.nvim_set_hl(0, "CursorLine", {bg = "#f5f5f5"})
+        end
+    } 
     use { "vim-airline/vim-airline" }
     
     use { 'nvim-tree/nvim-tree.lua' }

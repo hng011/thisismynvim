@@ -74,10 +74,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  ["kanagawa.nvim"] = {
+  ["cyberdream.nvim"] = {
+    config = { "\27LJ\2\n‰\1\0\0\5\0\b\0\r6\0\0\0009\0\1\0009\0\2\0'\2\3\0B\0\2\0016\0\0\0009\0\4\0009\0\5\0)\2\0\0'\3\6\0005\4\a\0B\0\4\1K\0\1\0\1\0\1\abg\f#f5f5f5\15CursorLine\16nvim_set_hl\bapi\21cyberdream-light\16colorscheme\bcmd\bvim\0" },
     loaded = true,
-    path = "/home/kaktus/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
-    url = "https://github.com/rebelot/kanagawa.nvim"
+    path = "/home/kaktus/.local/share/nvim/site/pack/packer/start/cyberdream.nvim",
+    url = "https://github.com/scottmckendry/cyberdream.nvim"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
@@ -102,6 +103,10 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: cyberdream.nvim
+time([[Config for cyberdream.nvim]], true)
+try_loadstring("\27LJ\2\n‰\1\0\0\5\0\b\0\r6\0\0\0009\0\1\0009\0\2\0'\2\3\0B\0\2\0016\0\0\0009\0\4\0009\0\5\0)\2\0\0'\3\6\0005\4\a\0B\0\4\1K\0\1\0\1\0\1\abg\f#f5f5f5\15CursorLine\16nvim_set_hl\bapi\21cyberdream-light\16colorscheme\bcmd\bvim\0", "config", "cyberdream.nvim")
+time([[Config for cyberdream.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
