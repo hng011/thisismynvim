@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/kaktus/.cache/nvim/packer_hererocks/2.1.1741730670/share/lua/5.1/?.lua;/home/kaktus/.cache/nvim/packer_hererocks/2.1.1741730670/share/lua/5.1/?/init.lua;/home/kaktus/.cache/nvim/packer_hererocks/2.1.1741730670/lib/luarocks/rocks-5.1/?.lua;/home/kaktus/.cache/nvim/packer_hererocks/2.1.1741730670/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/kaktus/.cache/nvim/packer_hererocks/2.1.1741730670/lib/lua/5.1/?.so"
+local package_path_str = "/Users/kaktus/.cache/nvim/packer_hererocks/2.1.1774896198/share/lua/5.1/?.lua;/Users/kaktus/.cache/nvim/packer_hererocks/2.1.1774896198/share/lua/5.1/?/init.lua;/Users/kaktus/.cache/nvim/packer_hererocks/2.1.1774896198/lib/luarocks/rocks-5.1/?.lua;/Users/kaktus/.cache/nvim/packer_hererocks/2.1.1774896198/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/Users/kaktus/.cache/nvim/packer_hererocks/2.1.1774896198/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -77,27 +77,27 @@ _G.packer_plugins = {
   ["cyberdream.nvim"] = {
     config = { "\27LJ\2\n‰\1\0\0\5\0\b\0\r6\0\0\0009\0\1\0009\0\2\0'\2\3\0B\0\2\0016\0\0\0009\0\4\0009\0\5\0)\2\0\0'\3\6\0005\4\a\0B\0\4\1K\0\1\0\1\0\1\abg\f#f5f5f5\15CursorLine\16nvim_set_hl\bapi\21cyberdream-light\16colorscheme\bcmd\bvim\0" },
     loaded = true,
-    path = "/home/kaktus/.local/share/nvim/site/pack/packer/start/cyberdream.nvim",
+    path = "/Users/kaktus/.local/share/nvim/site/pack/packer/start/cyberdream.nvim",
     url = "https://github.com/scottmckendry/cyberdream.nvim"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
-    path = "/home/kaktus/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    path = "/Users/kaktus/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
     url = "https://github.com/nvim-tree/nvim-tree.lua"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "/home/kaktus/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    path = "/Users/kaktus/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/home/kaktus/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    path = "/Users/kaktus/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["vim-airline"] = {
     loaded = true,
-    path = "/home/kaktus/.local/share/nvim/site/pack/packer/start/vim-airline",
+    path = "/Users/kaktus/.local/share/nvim/site/pack/packer/start/vim-airline",
     url = "https://github.com/vim-airline/vim-airline"
   }
 }
