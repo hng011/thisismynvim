@@ -15,3 +15,4 @@ vim.keymap.set('n', '<C-l>', '<C-w>l', { noremap = true, silent = true, desc = '
 vim.keymap.set('n', '<C-t>', ':NvimTreeToggle<CR>', { noremap = true, silent = true, desc = 'Toggle NvimTree'})
 vim.keymap.set('n', '<C-c>', ':NvimTreeClose<CR>', { noremap = true, silent = true, desc = 'Close NvimTree'})
 
+vim.keymap.set('n', '<leader>th', '<cmd>10split | terminal<CR>', { desc = "Open terminal in horizontal split" })
